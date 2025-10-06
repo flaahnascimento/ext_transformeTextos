@@ -4,48 +4,42 @@
     box-sizing: border-box;
 
 /* trazendo a fonte */
-font-family: "Quicksand"; 
-font-size: 12px;
+    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+
+    border: solid 1px #c75296;;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-  /* trazendo a fonte */
-  font-family: "Quicksand";
-  font-size: 12px;
-
-  /* Bordas view */
-  border: solid 1px #e7c5c5;
-}
-
-/* Layout APP*/
+/* Layout APP */
 .container-pai {
-  width: 200px;
-  height: 200px;
+    width: 200px;
+    height: 200px;
 
-  /* Flexbox */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
-/* Configurações dos botões*/
-.container-button{
-    width: 160px;
-    padding: 5px 0;
 
-    /* Flexbox */ 
+/* Configurações dos botões*/
+
+.container-button {
+    width: 160px;
+    padding: 5px;
+
+
+    /* Flexbox */
     display: flex;
     justify-content: space-evenly;
 }
-.btn{
+.btn {
     cursor: pointer;
-    width: 77px;
-    padding: 2px;
+    padding: 3px;
     border-radius: 3px;
+
 }
 
 /* Desafio cabeçalho */
