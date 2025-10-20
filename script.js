@@ -25,4 +25,19 @@ window.document.addEventListener("DOMContentLoaded", function(){
         document.querySelector("#result").innerHTML = "";
     });
 
+    window.document.querySelector("#copiar-button").addEventListener("click", function() {  
+        let textoParaCopiar = document.querySelector("#result").innerText || "";
+
+        if(textoParaCopiar.trim() === "" || textoParaCopiar === "Resultado:") {
+            alert("Não há texto para copiar!");
+            return;
+        }
+
+        navigator.clipboard.writeText(textoParaCopiar).then(function() {
+            alert("Texto copiado com sucesso!");
+        }, function() {
+            alert("Erro ao copiar o texto.");
+        });
+    });
+
 })
