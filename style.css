@@ -17,8 +17,6 @@
     justify-content: flex-start;
     align-items: center;
     background-color: #f3f3f3; 
-    border: 1px solid #4C4C4D; /* borda da tela */
-    border-radius: 8px; 
     padding: 10px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.15); 
     margin: 20px auto;
